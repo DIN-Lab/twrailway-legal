@@ -6,45 +6,32 @@
   <meta name="description" content="鐵道時刻 iOS／iPadOS 版服務條款">
   <title>鐵道時刻 iOS／iPadOS 服務條款 · DinLab</title>
   <style>
-:root { color-scheme: light dark; --bg: #f7f8fa; --surface: #fff; --text: #17202a; --muted: #64748b; --line: #dbe1e8; --accent: #b42318; }
+:root { color-scheme: light dark; --bg: #fff; --text: #17202a; --muted: #64748b; --line: #dbe1e8; --accent: #b42318; }
 * { box-sizing: border-box; }
 html { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; line-height: 1.75; }
 body { margin: 0; background: var(--bg); color: var(--text); }
 a { color: var(--accent); text-underline-offset: .2em; }
-.site-header { height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 0 max(24px, calc((100vw - 860px) / 2)); border-bottom: 1px solid var(--line); background: color-mix(in srgb, var(--surface) 92%, transparent); }
-.site-header a { text-decoration: none; color: var(--text); }
-.brand { font-weight: 750; letter-spacing: .02em; }
-nav { display: flex; gap: 20px; font-size: .9rem; }
-.document { width: min(100% - 32px, 860px); margin: 40px auto; padding: clamp(24px, 5vw, 64px); border: 1px solid var(--line); border-radius: 18px; background: var(--surface); box-shadow: 0 18px 50px rgba(15, 23, 42, .06); }
+.document { width: min(100% - 40px, 760px); margin: 48px auto 32px; }
 h1 { margin: 0 0 8px; font-size: clamp(2rem, 6vw, 3rem); line-height: 1.2; }
 h2 { margin: 2.4em 0 .7em; padding-top: .4em; border-top: 1px solid var(--line); font-size: 1.35rem; }
 h3 { margin: 1.8em 0 .55em; font-size: 1.08rem; }
 p, li { color: color-mix(in srgb, var(--text) 92%, var(--muted)); }
 ul, ol { padding-left: 1.4em; }
-blockquote { margin: 24px 0; padding: 14px 18px; border-left: 4px solid var(--accent); border-radius: 4px 10px 10px 4px; background: color-mix(in srgb, var(--accent) 8%, var(--surface)); }
+blockquote { margin: 24px 0; padding: 14px 18px; border-left: 4px solid var(--accent); background: color-mix(in srgb, var(--accent) 8%, transparent); }
 code { padding: .12em .35em; border-radius: 5px; background: color-mix(in srgb, var(--muted) 13%, transparent); font-size: .92em; }
-footer { width: min(100% - 32px, 860px); margin: 0 auto 48px; color: var(--muted); font-size: .85rem; text-align: center; }
-.hero { margin-bottom: 36px; }
-.eyebrow { margin: 0; color: var(--accent); font-size: .78rem; font-weight: 750; letter-spacing: .14em; text-transform: uppercase; }
-.cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
-.card { display: grid; gap: 4px; padding: 20px; border: 1px solid var(--line); border-radius: 12px; color: var(--text); text-decoration: none; transition: transform .15s ease, border-color .15s ease; }
-.card:hover { transform: translateY(-2px); border-color: var(--accent); }
-.card span { color: var(--muted); font-size: .82rem; }
-@media (max-width: 620px) { .site-header { padding: 0 16px; } nav { gap: 12px; } .document { width: 100%; margin: 0; border: 0; border-radius: 0; box-shadow: none; } .cards { grid-template-columns: 1fr; } }
-@media (prefers-color-scheme: dark) { :root { --bg: #101317; --surface: #171b21; --text: #edf1f5; --muted: #9aa8b8; --line: #303742; --accent: #ff8a80; } }
+footer { width: min(100% - 40px, 760px); margin: 0 auto 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; }
+@media (max-width: 620px) { .document { width: min(100% - 32px, 760px); margin-top: 32px; } }
+@media (prefers-color-scheme: dark) { :root { --bg: #101317; --text: #edf1f5; --muted: #9aa8b8; --line: #303742; --accent: #ff8a80; } }
 </style>
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="/">DinLab</a>
-  </header>
   <main class="document"><h1>鐵道時刻 iOS／iPadOS 版服務條款</h1>
 <p>最後更新日期：2026 年 8 月 28 日</p>
 <p>歡迎使用「鐵道時刻」iOS／iPadOS 版（以下稱「本服務」）。本服務由 DinLab 品牌提供（以下稱「我們」）；服務提供者的法定名稱及聯絡方式列於本條款「聯絡我們」一節。下載、安裝、存取或使用本服務，即表示您同意受本條款及《鐵道時刻 iOS／iPadOS 版隱私權政策》拘束。若您不同意，請勿使用本服務。</p>
 <blockquote>若 Apple App Store 的供應商名稱變更，應在本條款生效前同步更新。</blockquote>
 <h2>一、服務內容</h2>
 <p>本服務提供台灣鐵路及支援運輸方式的列車時刻、即時狀態、停靠站、票價、鄰近車站、搜尋紀錄、Widget、Live Activities、Siri／App Intents、捷徑與分享等輔助功能。部分功能需要網路、位置或通知權限、Apple 系統服務、有效購買／訂閱或相容裝置。</p>
-<p>除非另有明確說明，本服務不是交通部、台灣鐵路公司或其他運輸業者的官方應用程式，也不代表或代理任何運輸業者。資料主要來自交通部 TDX、台灣鐵路公司或相關運輸服務。</p>
+<p>除非另有明確說明，本服務不是交通部、國營臺灣鐵路股份有限公司或其他運輸業者的官方應用程式，也不代表或代理任何運輸業者。資料主要來自交通部 TDX、國營臺灣鐵路股份有限公司或相關運輸服務。</p>
 <h2>二、交通資訊</h2>
 <p>列車時刻、即時狀態、票價、月台及停靠站可能因資料更新延遲、網路、設備、臨時調度、天候、災害或上游服務異常而不完整、延遲或錯誤。本服務僅供行程規劃參考，不構成運輸契約、票價保證、到離站保證或官方證明。</p>
 <p>出發前請以運輸業者現場、官方網站、官方應用程式或公告為準，並預留合理轉乘時間。對人身安全、重大財產或法律權益有影響的決定，不應只依賴本服務。</p>
@@ -76,7 +63,7 @@ footer { width: min(100% - 32px, 860px); margin: 0 auto 48px; color: var(--muted
 </ul>
 <p>經我們書面授權的資安研究、互通性測試或法律明確保障的行為，不受不相容的禁止條款限制。發現安全問題時，請以聯絡信箱負責任地通知我們，勿公開使用者資料、憑證或可直接被濫用的細節。</p>
 <h2>八、第三方服務與資料</h2>
-<p>本服務依賴 Apple App Store、StoreKit、APNs、ActivityKit、Siri／App Intents、Firebase、Google Cloud、交通部 TDX、台灣鐵路公司及其他第三方服務。第三方服務可能另有條款、隱私權政策、可用範圍及費用；您使用第三方服務時應遵守其規定。</p>
+<p>本服務依賴 Apple App Store、StoreKit、APNs、ActivityKit、Siri／App Intents、Firebase、Google Cloud、交通部 TDX、國營臺灣鐵路股份有限公司及其他第三方服務。第三方服務可能另有條款、隱私權政策、可用範圍及費用；您使用第三方服務時應遵守其規定。</p>
 <p>TDX 所提供的開放資料依其資料授權條款及「政府資料開放授權條款－第 1 版」授權利用。資料的權利、來源註記與免責依相應授權條款處理。本服務對第三方服務的可用性、正確性或持續提供不作控制或承諾。</p>
 <h2>九、智慧財產權</h2>
 <p>除第三方資料、商標、開放原始碼元件及另有標示的內容外，本服務的程式、介面、設計、文字、圖像與品牌所涉權利由我們或合法權利人所有。本條款不移轉任何商標、著作權、專利、營業秘密或其他智慧財產權。</p>
