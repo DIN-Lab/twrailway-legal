@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="鐵道時刻 Android 與 iOS／iPadOS 版法律文件">
+  <title>鐵道時刻法律文件 · DinLab</title>
+  <style>
+:root { color-scheme: light dark; --bg: #f7f8fa; --surface: #fff; --text: #17202a; --muted: #64748b; --line: #dbe1e8; --accent: #b42318; }
+* { box-sizing: border-box; }
+html { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; line-height: 1.75; }
+body { margin: 0; background: var(--bg); color: var(--text); }
+a { color: var(--accent); text-underline-offset: .2em; }
+.site-header { height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 0 max(24px, calc((100vw - 860px) / 2)); border-bottom: 1px solid var(--line); background: color-mix(in srgb, var(--surface) 92%, transparent); }
+.site-header a { text-decoration: none; color: var(--text); }
+.brand { font-weight: 750; letter-spacing: .02em; }
+nav { display: flex; gap: 20px; font-size: .9rem; }
+.document { width: min(100% - 32px, 860px); margin: 40px auto; padding: clamp(24px, 5vw, 64px); border: 1px solid var(--line); border-radius: 18px; background: var(--surface); box-shadow: 0 18px 50px rgba(15, 23, 42, .06); }
+h1 { margin: 0 0 8px; font-size: clamp(2rem, 6vw, 3rem); line-height: 1.2; }
+h2 { margin: 2.4em 0 .7em; padding-top: .4em; border-top: 1px solid var(--line); font-size: 1.35rem; }
+h3 { margin: 1.8em 0 .55em; font-size: 1.08rem; }
+p, li { color: color-mix(in srgb, var(--text) 92%, var(--muted)); }
+ul, ol { padding-left: 1.4em; }
+blockquote { margin: 24px 0; padding: 14px 18px; border-left: 4px solid var(--accent); border-radius: 4px 10px 10px 4px; background: color-mix(in srgb, var(--accent) 8%, var(--surface)); }
+code { padding: .12em .35em; border-radius: 5px; background: color-mix(in srgb, var(--muted) 13%, transparent); font-size: .92em; }
+footer { width: min(100% - 32px, 860px); margin: 0 auto 48px; color: var(--muted); font-size: .85rem; text-align: center; }
+.hero { margin-bottom: 36px; }
+.eyebrow { margin: 0; color: var(--accent); font-size: .78rem; font-weight: 750; letter-spacing: .14em; text-transform: uppercase; }
+.cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.card { display: grid; gap: 4px; padding: 20px; border: 1px solid var(--line); border-radius: 12px; color: var(--text); text-decoration: none; transition: transform .15s ease, border-color .15s ease; }
+.card:hover { transform: translateY(-2px); border-color: var(--accent); }
+.card span { color: var(--muted); font-size: .82rem; }
+@media (max-width: 620px) { .site-header { padding: 0 16px; } nav { gap: 12px; } .document { width: 100%; margin: 0; border: 0; border-radius: 0; box-shadow: none; } .cards { grid-template-columns: 1fr; } }
+@media (prefers-color-scheme: dark) { :root { --bg: #101317; --surface: #171b21; --text: #edf1f5; --muted: #9aa8b8; --line: #303742; --accent: #ff8a80; } }
+</style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">DinLab</a>
+    <nav aria-label="法律文件">
+      <a href="/android/privacy/">Android</a>
+      <a href="/ios/privacy/">iOS／iPadOS</a>
+    </nav>
+  </header>
+  <main class="document"><section class="hero"><p class="eyebrow">Taiwan Railway</p><h1>法律文件</h1><p>請選擇平台與文件類型。</p></section><section class="cards">
+    <a class="card" href="/android/privacy/">
+      <span>Android</span>
+      <strong>隱私權政策</strong>
+    </a>
+    <a class="card" href="/android/terms/">
+      <span>Android</span>
+      <strong>服務條款</strong>
+    </a>
+    <a class="card" href="/ios/privacy/">
+      <span>iOS／iPadOS</span>
+      <strong>隱私權政策</strong>
+    </a>
+    <a class="card" href="/ios/terms/">
+      <span>iOS／iPadOS</span>
+      <strong>服務條款</strong>
+    </a></section></main>
+  <footer>© 2026 DinLab</footer>
+</body>
+</html>
