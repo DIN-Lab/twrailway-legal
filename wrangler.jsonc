@@ -1,6 +1,7 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "twrailway-legal",
+  "account_id": "98ec7e381ad618dd159d024dd4efb367",
   "compatibility_date": "2026-08-28",
   "assets": {
     "directory": "./public/"
